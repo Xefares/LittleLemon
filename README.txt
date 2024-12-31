@@ -7,3 +7,5 @@ http://127.0.0.1:8000/restaurant/api/menu/1 - URL for single menu item, need to 
 
 
 127.0.0.1:8000/auth/token/login/ - URL to generate token
+
+http://127.0.0.1:8000/restaurant/api/booking/tables/ - URL for booking a table
