@@ -79,12 +79,14 @@ WSGI_APPLICATION = 'LittleLemon.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LittleLemon',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'password',
+        # 'ENGINE': 'django.db.backends.sqlite3', #Uncomment these to use sqllite database
+        # 'NAME': BASE_DIR / 'db.sqlite3', #Uncomment these to use sqllite database
+        'ENGINE': 'django.db.backends.mysql', #Comment these out to switch to sqllite
+        'NAME': 'LittleLemon', #Comment these out to switch to sqllite
+        'HOST': '127.0.0.1', #Comment these out to switch to sqllite
+        'PORT': '3306', #Comment these out to switch to sqllite
+        'USER': 'root', #Comment these out to switch to sqllite
+        'PASSWORD': 'password', #Comment these out to switch to sqllite
     }
 }
 
